@@ -5,7 +5,7 @@
   >
     <v-img
     
-     img alt="Profile" class="center" src="dist/vue.png" width="200" height="200"
+     img alt="Profile" class="center" src="/vue.png" width="200" height="200"
     ></v-img>
 
     <v-card-title>

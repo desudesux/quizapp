@@ -5,7 +5,7 @@
   >
     <v-img
     
-    src="dist/bgm.jpg"
+    src="/bgm.jpg"
       height="200px"
     ></v-img>
 
