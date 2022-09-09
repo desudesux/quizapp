@@ -14,6 +14,7 @@
         color="#FFFFD1">
 
         <v-card-text>
+            <img alt="Profile" class="center" src="/welcome.png" width="200" height="200" />
         </v-card-text>
       </v-card>
     </v-col>

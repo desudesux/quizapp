@@ -2,7 +2,7 @@
   <nav>
       <v-toolbar app color="#FFFFD1">
        <v-app-bar-nav-icon @click='toggleDrawer'></v-app-bar-nav-icon>
-      <v-toolbar-title >
+      <v-toolbar-title>
         <span class="font-weight-light">Vuetify </span>
         <span>Demo</span>
       </v-toolbar-title>
@@ -64,9 +64,11 @@
   const  items =  ref([
            { title: 'Dashboard', icon: 'mdi-view-dashboard', path: '/' },
            { title: 'Simple Calculator', icon: 'mdi-calculator-variant', path: '/basicMath' },
-           { title: 'Vowel Count', icon: 'mdi-help-box', path: '/stringApp'},
+           { title: 'Vowel Count', icon: 'mdi-symbol', path: '/stringApp'},
            { title: 'About Myself', icon: 'mdi-account-box', path: '/aboutme'},
-           { title: 'Quiz', icon: 'mdi-account-box', path: '/quiz'},
+           { title: 'Research About Vuetify', icon: 'mdi-vuetify', path: '/vueapp'},
+           { title: 'About the Project', icon: 'mdi-progress-question', path: '/aboutproject'},
+           { title: 'Quiz', icon: 'mdi-clipboard-edit', path: '/quiz'},
         ])
 
  function toggleDrawer(){
