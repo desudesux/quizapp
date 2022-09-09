@@ -1,6 +1,6 @@
 <template>
    <div id="quiz-container">
-      <h1 id="logo-headline">Quiz </h1>
+      <h1 id="logo-headline">Entertainment: Japanese Anime & manga </h1>
       <h5>Score: {{score}}/{{questions.length}}</h5>
       <!-- div#correctAnswers -->
       <hr class="divider" />

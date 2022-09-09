@@ -1,5 +1,3 @@
-
-
 <template>
     <v-card
     class="mx-auto"
@@ -7,15 +5,16 @@
   >
     <v-img
     
-     img alt="Profile" class="center" src="/elijah1.png" width="200" height="200"
+    src="dist/bgm.jpg"
+      height="200px"
     ></v-img>
 
     <v-card-title>
-      Top western road trips
+      About The Application
     </v-card-title>
 
     <v-card-subtitle>
-      1,000 miles of wonder
+        CIT 510-IT41S2
     </v-card-subtitle>
 
     <v-card-actions>
@@ -23,7 +22,7 @@
         color="orange lighten-2"
         text
       >
-        Explore
+      Simple Calculator
       </v-btn>
 
       <v-spacer></v-spacer>
@@ -41,7 +40,7 @@
         <v-divider></v-divider>
 
         <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+         The application calculate the Sum, Difference, Product, Qoutient, Average in just 1 button
         </v-card-text>
       </div>
     </v-expand-transition>
@@ -51,7 +50,7 @@
         color="orange lighten-2"
         text
       >
-        Explore
+      Vowel Count
       </v-btn>
 
       <v-spacer></v-spacer>
@@ -69,7 +68,61 @@
         <v-divider></v-divider>
 
         <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+            The Application counts the number, vowel, consonant and it conver vowels to asterisk
+        </v-card-text>
+      </div>
+    </v-expand-transition>
+    <v-card-actions>
+      <v-btn
+        color="orange lighten-2"
+        text
+      >
+      About Myself
+      </v-btn>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        icon
+        @click="show = !show"
+      >
+        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+      </v-btn>
+    </v-card-actions>
+
+    <v-expand-transition>
+      <div v-show="show">
+        <v-divider></v-divider>
+
+        <v-card-text>
+           This show a basic introduction about me :>
+        </v-card-text>
+      </div>
+    </v-expand-transition>
+    <v-card-actions>
+      <v-btn
+        color="orange lighten-2"
+        text
+      >
+      Quiz App
+      </v-btn>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        icon
+        @click="show = !show"
+      >
+        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+      </v-btn>
+    </v-card-actions>
+
+    <v-expand-transition>
+      <div v-show="show">
+        <v-divider></v-divider>
+
+        <v-card-text>
+            This application will test your knowledge about manga or anime
         </v-card-text>
       </div>
     </v-expand-transition>
